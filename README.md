@@ -1,3 +1,4 @@
+
 ##########
  API Name
 ##########
@@ -37,13 +38,29 @@ API Capabilities
 	
 6) Sort response based on the derived score. </br>
 
-7) Aggregate the response when fetching the information for all the cities. </br>
+7) Filter first 5 elements after sorting. </br>
+
+8) Aggregate the response when fetching the information for all the cities. </br>
 
 ##########
  URL
 ##########
 
 /api/getLaunchDetails
+
+######################
+
+Security
+
+######################
+
+OAuth2.0 </br>
+
+following headers need to be added while testing through postman. </br>
+
+client_id </br>
+
+client_secret </br>
 
 ##########
  Method
