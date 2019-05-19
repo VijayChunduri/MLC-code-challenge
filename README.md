@@ -11,9 +11,13 @@ API Capabilities
 ############################
 
 1) Near real time data from OpenWeatherMap API (https://openweathermap.org/forecast5) for the next 5 days (data includes for every 3 hours). </br>
+
 2)Convert city name to city id to retrieve the information from openweathermap api. </br>
+
 3)Retrieve information based on the city name or retrieve all cities information.</br>
+
 4) Provide score based on the temperature, wind speed and wind direction. </br>
+
 5) Filter the response based on the below checks. </br>
 	Melbourne </br>
         Cloudiness MAX: 50% </br>
@@ -30,7 +34,9 @@ API Capabilities
 	Perth </br>
 	Cloudiness MAX: 30% </br>
 	Windspeed MAX: 5 m/second </br>
+	
 6) Sort response based on the derived score. </br>
+
 7) Aggregate the response when fetching the information for all the cities. </br>
 
 ##########
