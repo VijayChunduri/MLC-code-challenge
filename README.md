@@ -35,52 +35,52 @@ possible values for this version of API are  </br>
 Success Response:
 ####################
   
-Code: 200
-Content: 
-	{
-    "launchWindows": [
-        {
-            "location": "Perth",
-            "datetime": "2019-05-20 21:00:00",
-            "score2": 276.717
-		}
-	]
-	}
+Code: 200  </br>
+Content:  </br>
+	{  </br>
+    "launchWindows": [  </br>
+        {  </br>
+            "location": "Perth", </br>
+            "datetime": "2019-05-20 21:00:00", </br>
+            "score2": 276.717  </br>
+		}  </br>
+	]  </br>
+	}  </br>
 	
 
 ################### 
 Error Response:
 ###################
   
-Code: 401 UNAUTHORIZED
-Content:{ error : "Log in" }
+Code: 401 UNAUTHORIZED  </br>
+Content:{ error : "Log in" }  </br>
 
         OR
 
-Code: 403 FORBIDDEN
-Content:{ error : "The request is valid, but the server is refusing to respond to it." }
+Code: 403 FORBIDDEN  </br>
+Content:{ error : "The request is valid, but the server is refusing to respond to it." }  </br>
   
         OR
   
-Code: 404 FORBIDDEN
-Content:{ error : "Backend Services is not configured or The requested resource could not be found." }
+Code: 404 FORBIDDEN  </br>
+Content:{ error : "Backend Services is not configured or The requested resource could not be found." }  </br>
   
         OR
 
-Code: 500 FORBIDDEN
-Content:{ error : "Internal Server Error -given that when an unexpected condition was encountered and no more specific message is suitable." }
+Code: 500 FORBIDDEN  </br>
+Content:{ error : "Internal Server Error -given that when an unexpected condition was encountered and no more specific message is suitable." }  </br>
 
         OR
 
-Code: 502 FORBIDDEN
-Content:{ error : "The server was acting as a gateway or proxy and received an invalid response from the upstream server. Contact Middleware Services team." }
+Code: 502 FORBIDDEN  </br>
+Content:{ error : "The server was acting as a gateway or proxy and received an invalid response from the upstream server. Contact Middleware Services team." }  </br>
 
 ##########
 URI :
 ##########
 
-Launch details for all cities (Melbourne, Perth, Darwin, Hobart)
-http://localhost:8081/api/getLaunchDetails
+Launch details for all cities (Melbourne, Perth, Darwin, Hobart)  </br>
+http://localhost:8081/api/getLaunchDetails  </br>
 
 Launch details for individual city  </br>
 http://localhost:8081/api/getLaunchDetails?cityName=Melbourne </br>
@@ -92,12 +92,12 @@ http://localhost:8081/api/getLaunchDetails?cityName=Hobart  </br>
 Sample Response:**
 #################
 
-{
-    "launchWindows": [
-        {
-            "location": "Perth",
-            "datetime": "2019-05-20 21:00:00",
-            "score": 276.717
-        }
-    ]
-}
+{  </br>
+    "launchWindows": [  </br>
+        { </br>
+            "location": "Perth", </br>
+            "datetime": "2019-05-20 21:00:00", </br>
+            "score": 276.717  </br>
+        }  </br>
+    ]  </br>
+}  </br>
